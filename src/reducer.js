@@ -1,7 +1,6 @@
-export default function Increment(state ={ counter : 0}, action){
-  switch(action.type){
-    case 'Increment':
-    return {counter : state.counter + 1}
+export default function Increment(state = 0, action) {
+  switch (action.type) {
+    case "Increment":
+      return state + 1;
   }
-
 }

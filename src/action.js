@@ -1,6 +1,5 @@
-const Increment = () => {
+export const ActionFor = () => {
   return {
     type: "Increment"
   };
 };
-export default Increment;
